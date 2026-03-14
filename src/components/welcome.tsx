@@ -74,7 +74,7 @@ export function Welcome({ onConnect, initialPath }: WelcomeProps) {
       backgroundColor={THEME.bg}
     >
       <box flexDirection="column" alignItems="center" gap={1}>
-        <ascii-font font="tiny" text="sqlpeekk" color={THEME.accent} />
+        <ascii-font font="tiny" text="sqlpeek" color={THEME.accent} />
         <text fg={THEME.dim}>A terminal UI for exploring SQLite databases</text>
 
         <box height={1} />
